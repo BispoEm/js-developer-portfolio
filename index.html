@@ -24,22 +24,22 @@
 <body>
   <main class="main">
     <header class="header">
-      <img src="assets/img/my-photo.jpg" alt="foto do Bispo" class="photo">
-      <h1 class="title">Olá, eu sou<br>Emanuel B Da Silva</h1>
+      <img src="assets/img/my-photo.png" alt="foto do Perfil" class="photo profile-photo">
+      <h1 class="title">Olá, eu sou<br><span class="profile-name">Loading...</span></h1>
       <div class="information">
-        <p class="job">Estudante</p>
-        <p class="location">Mato Grosso do Sul - BR</p>
-        <p class="phone"><a href="tel:(67)98164-5584">(67) 9 8164-5584</a></p>
-        <p class="email"><a href="mailto:bispoem7@gmail.com">bispoem7@gmail.com</a></p>
+        <p class="job profile.job"><span class=" profile-job">Loading...</span></p>
+        <p class="location"><span class=" profile-location">Loading...</span></p>
+        <p class="phone"><a href="tel:(67)98164-5584"><span class=" profile-phone">Loading...</span></a></p>
+        <p class="email"><a href="mailto:bispoem7@gmail.com"><span class=" profile-email">Loading...</span></a></p>
       </div>
     </header>
-    <section class="acordeon open">
+    <section class="acordeon">
       <button class="trigger" type="button"><h2>Skills</h2></button>
       <div class="content">
         <div class="skills">
           <section class="tools">
             <h3>Ferramentas</h3>
-            <ul>
+            <ul class="profile-skills-hardSkills">
               <!-- <li><img src="assets/img/icons/tools/html.svg" alt="HTML" title="HTML"></li>
               <li><img src="assets/img/icons/tools/css.svg" alt="CSS" title="CSS"></li> -->
               <li><img src="assets/img/icons/tools/js.png" alt="JavaScript" title="JavaScript"></li>
@@ -51,7 +51,7 @@
           </section>
           <section class="personal">
             <h3>Pessoal</h3>
-            <ul>
+            <ul class="profile-skills-softSkills">
               <li>Liderança</li>
               <li>Facilidade de comunicação</li>
               <li>Organização</li>
@@ -107,6 +107,8 @@
   </main>
   
   <script src="assets/js/acordeon.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
 

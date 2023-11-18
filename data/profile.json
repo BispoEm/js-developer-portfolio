@@ -55,8 +55,9 @@
       "github": true
     },
     {
-      "name": "Clone da interface da Netflix atravez de bootcamp da carrefour",
-      "url": "https://github.com/BispoEm/Curso-dio-carrefour-web-developer/tree/main/netflix-clone",
+      "name": "Clone da interface da Netflix",
+      "url":
+"https://github.com/BispoEm/netflix-clone",
       "github": true
     }
   ],
